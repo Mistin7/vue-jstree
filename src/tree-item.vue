@@ -109,6 +109,7 @@
               deep: true
           }
       },
+      // test comment 123
       computed: {
           isFolder () {
               return this.model[this.childrenFieldName] && this.model[this.childrenFieldName].length
